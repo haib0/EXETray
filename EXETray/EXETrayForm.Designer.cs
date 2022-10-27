@@ -29,11 +29,27 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EXETrayForm));
+            this.EXETray = new System.Windows.Forms.NotifyIcon(this.components);
+            this.SuspendLayout();
+            // 
+            // EXETray
+            // 
+            resources.ApplyResources(this.EXETray, "EXETray");
+            this.EXETray.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EXETray_MouseClick);
+            // 
+            // EXETrayForm
+            // 
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "EXETrayForm";
+            this.Load += new System.EventHandler(this.EXETrayForm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private NotifyIcon EXETray;
     }
 }

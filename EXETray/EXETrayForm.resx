@@ -57,21 +57,67 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="EXETray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="EXETray.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        SZIkSZXgbwQPi4ogY5j4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="EXETray.Text" xml:space="preserve">
+    <value>EXETray</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EXETray.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 17</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>284, 261</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
+  <data name="&gt;&gt;EXETray.Name" xml:space="preserve">
     <value>EXETray</value>
+  </data>
+  <data name="&gt;&gt;EXETray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>EXETray</value>
+    <value>EXETrayForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
